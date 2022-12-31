@@ -1,0 +1,13 @@
+[package]
+name = "include-lines"
+version = "1.0.0"
+edition = "2021"
+description = "Macros for reading in the lines of a file into an array"
+readme = "README.md"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0.23"
+syn = "1.0.107"
