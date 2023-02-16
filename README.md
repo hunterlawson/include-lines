@@ -70,6 +70,7 @@ You can use the `static_include_lines!` and `static_include_lines_s!` macros to 
 use include_lines::{static_include_lines};
 static_include_lines!(LINES, "file.txt");
 ```
+
 For the example file, this expands to:
 
 ```rust
