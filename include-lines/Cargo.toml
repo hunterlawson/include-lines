@@ -10,4 +10,4 @@ keywords = ["include", "compile", "static", "file", "lines"]
 categories = ["filesystem", "text-processing"]
 
 [dependencies]
-include-lines-proc = { path = "../include-lines-proc" }
+include-lines-proc = "*"
