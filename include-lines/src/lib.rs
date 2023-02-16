@@ -1,4 +1,3 @@
-#![doc(test(attr(ignore)))]
 #![doc = include_str!("../../README.md")]
 
 pub use include_lines_proc::*;
