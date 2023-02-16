@@ -11,3 +11,6 @@ categories = ["filesystem", "text-processing"]
 
 [dependencies]
 include-lines-proc = "1.1.0"
+
+[lib]
+doctest = false

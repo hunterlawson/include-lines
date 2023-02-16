@@ -64,13 +64,12 @@ let num_lines = 4usize;
 
 ### Create a static array from a file at compile time
 
-You can use the `include_lines!` and `count_lines!` macros to initialize static text arrays at compile time:
+You can use the `static_include_lines!` and `static_include_lines_s!` macros to initialize static text arrays at compile time:
 
 ```rust
-use include_lines::{count_lines, include_lines};
-static LINES: [&str; count_lines!("file.txt")] = include_lines!("file.txt");
+use include_lines::{static_include_lines};
+static_include_lines!(LINES, "file.txt");
 ```
-
 For the example file, this expands to:
 
 ```rust
