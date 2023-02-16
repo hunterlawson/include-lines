@@ -2,7 +2,7 @@
 name = "include-lines-proc"
 version = "1.1.0"
 edition = "2021"
-description = "Procedural macros for the include-lines crate. Please include add that crate instead."
+description = "Procedural macros for the include-lines crate. Please add that crate instead."
 repository = "https://github.com/hunterlawson/include-lines"
 license = "MIT OR Apache-2.0"
 
